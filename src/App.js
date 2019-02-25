@@ -15,9 +15,12 @@ class App extends Component {
       <React.Fragment>
         <Navbar />
         <Switch>
-          <Route path='ecommerce/' component={ProductList} />
-          <Route path='/details' component={Details} />
-          <Route path='/cart' component={Cart} />
+          <Route path={process.env.PUBLIC_URL + '/'} component={ProductList} />
+          <Route
+            path={process.env.PUBLIC_URL + '/details'}
+            component={Details}
+          />
+          <Route path={process.env.PUBLIC_URL + '/cart'} component={Cart} />
           <Route component={Default} />
         </Switch>
         <Modal />
