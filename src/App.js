@@ -15,10 +15,10 @@ class App extends Component {
       <React.Fragment>
         <Navbar />
         <Switch>
-          <Route path='/' component={ProductList} />
+          <Route path='ecommerce/' component={ProductList} />
           <Route path='/details' component={Details} />
           <Route path='/cart' component={Cart} />
-          <Route exact component={Default} />
+          <Route component={Default} />
         </Switch>
         <Modal />
       </React.Fragment>
