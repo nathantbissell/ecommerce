@@ -30,7 +30,7 @@ class App extends Component {
             path={process.env.PUBLIC_URL + '/cart'}
             component={Cart}
           />
-          <Route exact component={Default} />
+          <Route component={Default} />
         </Switch>
         <Modal />
       </React.Fragment>
