@@ -17,6 +17,7 @@ export default class Default extends Component {
               </span>{' '}
               was not found
             </h3>
+            <h6>{this.props}</h6>
           </div>
         </div>
       </div>
