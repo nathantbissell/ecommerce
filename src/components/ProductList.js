@@ -4,6 +4,7 @@ import Title from './Title'
 import { ProductConsumer } from '../context'
 export default class ProductList extends Component {
   render() {
+    console.log('productList', this.props.location)
     return (
       <React.Fragment>
         <div className='py-5'>

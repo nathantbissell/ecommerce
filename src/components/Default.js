@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 
 export default class Default extends Component {
   render() {
-    console.log(this.props)
+    console.log('default', this.props.location)
     return (
       <div className='container'>
         <div className='row'>
