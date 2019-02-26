@@ -12,7 +12,8 @@ export default class Navbar extends Component {
         Commons (Attribution 3.0 Unported);
         https://www.iconfinder.com/Makoto_msk */}
         <Link to='/'>
-          <img src={logo} alt='store' className='navbar-brand' />
+          {/* <img src={logo} alt='store' className='navbar-brand' /> */}
+          <i className='fas fa-home' />
         </Link>
         <ul className='navbar-nav align-items-center'>
           <li className='nav-item ml-5'>
@@ -35,12 +36,15 @@ export default class Navbar extends Component {
 }
 
 const NavWrapper = styled.nav`
-  background: var(--mainBlue);
+  background: var(--navy);
   .nav-link {
     color: var(--mainWhite) !important;
     font-size: 1.3rem;
     // 1rem = 16px, if user changes size of site, will respond accordingly
     // important is called here cause navlink is a boostrap method that needs overriding
     text-transform: capitalize;
+  }
+  .nav-link:hover {
+    color: #000000 !important;
   }
 `

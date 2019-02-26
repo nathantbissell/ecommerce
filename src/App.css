@@ -4,6 +4,10 @@
   --mainWhite: #f3f3f3;
   --mainDark: #232528;
   --mainYellow: #ffa400;
+  --mainRed: #ff0000;
+  --mainGrey: #808080;
+  --babyBlue: #c6e2ff;
+  --navy: #003366;
 }
 
 body {
@@ -14,13 +18,21 @@ body {
 }
 
 .text-title {
-  font-family: 'Permanent Marker', cursive;
+  font-family: 'Anton', sans-serif !important;
   letter-spacing: 0.3em;
   text-transform: uppercase;
 }
 
 .text-blue {
-  color: var(--mainBlue);
+  color: var(--navy);
+}
+
+.text-red {
+  color: var(--mainRed);
+}
+
+.text-grey {
+  color: var(--mainGrey);
 }
 
 .text-bright {
