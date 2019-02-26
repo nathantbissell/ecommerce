@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
-import logo from '../logo.svg'
 import styled from 'styled-components'
 import { ButtonContainer } from './Button'
 
@@ -13,7 +12,7 @@ export default class Navbar extends Component {
         https://www.iconfinder.com/Makoto_msk */}
         <Link to='/'>
           {/* <img src={logo} alt='store' className='navbar-brand' /> */}
-          <i className='fas fa-home' />
+          <i className='fas fa-home nav-link' />
         </Link>
         <ul className='navbar-nav align-items-center'>
           <li className='nav-item ml-5'>
@@ -45,6 +44,7 @@ const NavWrapper = styled.nav`
     text-transform: capitalize;
   }
   .nav-link:hover {
-    color: #000000 !important;
+    color: var(--lightBlue) !important;
+    transition: all 0.5s ease-in-out;
   }
 `
