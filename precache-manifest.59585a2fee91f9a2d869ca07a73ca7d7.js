@@ -8,23 +8,23 @@ self.__precacheManifest = [
     "url": "/ecommerce/static/js/runtime~main.d4326592.js"
   },
   {
-    "revision": "794378107f2cb1472c1e",
-    "url": "/ecommerce/static/js/main.79437810.chunk.js"
+    "revision": "682d6a3d419c7a057de9",
+    "url": "/ecommerce/static/js/main.682d6a3d.chunk.js"
   },
   {
-    "revision": "c06d26578ce3d9803c31",
-    "url": "/ecommerce/static/js/2.c06d2657.chunk.js"
+    "revision": "3c0e1bd5b6c4978f6985",
+    "url": "/ecommerce/static/js/2.3c0e1bd5.chunk.js"
   },
   {
-    "revision": "794378107f2cb1472c1e",
+    "revision": "682d6a3d419c7a057de9",
     "url": "/ecommerce/static/css/main.85ed7b95.chunk.css"
   },
   {
-    "revision": "c06d26578ce3d9803c31",
+    "revision": "3c0e1bd5b6c4978f6985",
     "url": "/ecommerce/static/css/2.fe311652.chunk.css"
   },
   {
-    "revision": "7dd8b071ed85571ae3aa357c672e8b8d",
+    "revision": "d6a35abacd67c4eee68ceb26b199713f",
     "url": "/ecommerce/index.html"
   }
 ];
