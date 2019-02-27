@@ -91,7 +91,7 @@ export const storeProducts = [
   {
     id: 8,
     title: 'MacBook Pro 13-inch',
-    img: 'img/product-9.png',
+    img: 'img/product-8.png',
     price: 1999,
     company: 'apple',
     info:
